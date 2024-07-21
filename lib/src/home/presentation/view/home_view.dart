@@ -47,15 +47,24 @@ class _HomeViewState extends State<HomeView> {
           backgroundColor: Colors.white,
           appBar: AppBar(
             surfaceTintColor: Colors.white,
-            title: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            title: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text('Hello'),
-                Text(
-                  'Rama Mai',
-                  style: TextStyle(
-                    fontSize: 18,
-                  ),
+                const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Hello'),
+                    Text(
+                      'Rama Mai',
+                      style: TextStyle(
+                        fontSize: 18,
+                      ),
+                    ),
+                  ],
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: const Icon(Icons.trolley),
                 ),
               ],
             ),

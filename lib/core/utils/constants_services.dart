@@ -4,4 +4,5 @@ class ConstantsServices {
   //Login
   static const getItemList = 'api/item/';
   static const getItemDetail = 'api/item/';
+  static const getBasketList = 'api/cart/';
 }

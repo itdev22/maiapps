@@ -13,7 +13,7 @@ class FoodDetailScreen extends StatefulWidget {
     required this.entity,
   }) : super(key: key);
 
-  // final FoodDataEntity entity;
+  final FoodDataEntity entity;
 
   static const routeName = '/food-detail';
 

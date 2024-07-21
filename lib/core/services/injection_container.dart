@@ -1,4 +1,9 @@
 import 'package:get_it/get_it.dart';
+import 'package:maiapps/src/basket/data/datasources/basket_remote_data_sources.dart';
+import 'package:maiapps/src/basket/data/repos/basket_repo_impl.dart';
+import 'package:maiapps/src/basket/domain/repos/basket_repo.dart';
+import 'package:maiapps/src/basket/domain/usecases/basket_use_case.dart';
+import 'package:maiapps/src/basket/presentation/cubit/basket_cubit.dart';
 import 'package:maiapps/src/food_detail/data/datasources/food_detail_remote_data_source.dart';
 import 'package:maiapps/src/food_detail/data/repos/food_detail_repo_impl.dart';
 import 'package:maiapps/src/food_detail/domain/repos/food_detail_repo.dart';
@@ -14,9 +19,19 @@ import 'package:maiapps/src/profile/presentation/cubit/profile_cubit.dart';
 final sl = GetIt.instance;
 
 Future<void> init() async {
+  await _initBasket();
   await _initFoodDetail();
   await _initFood();
   await _initProfile();
+}
+
+Future<void> _initBasket() async {
+  sl
+    ..registerFactory(() => BasketCubit(useCase: sl()))
+    ..registerLazySingleton(() => BasketUseCase(sl()))
+    ..registerLazySingleton<BasketRepo>(() => BasketRepoImpl(sl()))
+    ..registerLazySingleton<BasketRemoteDataSource>(
+        () => BasketRemoteDataSourceImpl());
 }
 
 Future<void> _initFoodDetail() async {

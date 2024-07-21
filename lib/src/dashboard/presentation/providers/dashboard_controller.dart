@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:maiapps/core/common/app/providers/tab_navigator.dart';
 import 'package:maiapps/core/common/views/presistent_view.dart';
 import 'package:maiapps/core/services/injection_container.dart';
+import 'package:maiapps/src/basket/presentation/cubit/basket_cubit.dart';
 import 'package:maiapps/src/basket/presentation/views/basket_view.dart';
 import 'package:maiapps/src/home/presentation/cubit/food_cubit.dart';
 import 'package:maiapps/src/home/presentation/view/home_view.dart';
@@ -43,7 +44,10 @@ class DashboardController extends ChangeNotifier {
       ChangeNotifierProvider(
         create: (_) => TabNavigator(
           TabItem(
-            child: const BasketView(),
+            child: BlocProvider(
+              create: (context) => sl<BasketCubit>(),
+              child: const BasketView(),
+            ),
           ),
         ),
         child: const PersistentView(),
