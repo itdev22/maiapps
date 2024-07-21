@@ -11,9 +11,10 @@ class FoodDetailAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      surfaceTintColor: Colors.white,
       title: Text(
         itemName ?? '',
-        style: TextStyle(
+        style: const TextStyle(
           fontWeight: FontWeight.w600,
           fontSize: 20,
         ),
