@@ -45,7 +45,7 @@ class _BasketViewState extends State<BasketView> {
           appBar: AppBar(
             surfaceTintColor: Colors.white,
             title: const Text(
-              'Keranjang',
+              'Order',
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 20,
