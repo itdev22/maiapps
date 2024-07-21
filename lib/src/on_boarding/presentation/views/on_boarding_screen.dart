@@ -15,8 +15,8 @@ class OnBoardingScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Image(image: AssetImage()),
-            const Text('LOGO APPS'),
+            Image(image: AssetImage("assets/images/1.png")),
+            // const Text('LOGO APPS'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacementNamed(
@@ -25,7 +25,7 @@ class OnBoardingScreen extends StatelessWidget {
                 );
               },
               child: const Text(
-                'Mulai Mencari Lokasi',
+                'Get Started',
               ),
             ),
           ],

@@ -8,10 +8,10 @@ import 'package:maiapps/src/home/domain/entitys/food_data_entity.dart';
 class FoodDetailScreen extends StatefulWidget {
   const FoodDetailScreen({
     super.key,
-    required this.entity,
+    // required this.entity,
   });
 
-  final FoodDataEntity entity;
+  // final FoodDataEntity entity;
 
   static const routeName = '/food-detail';
 
@@ -30,7 +30,7 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
       },
       builder: (context, state) {
         return Scaffold(
-          appBar: FoodDetailAppBar(itemName: widget.entity.title),
+          appBar: FoodDetailAppBar(itemName: "widget.entity.title"),
           body: Column(
             children: [
               if (state is FoodDetailLoaded)
