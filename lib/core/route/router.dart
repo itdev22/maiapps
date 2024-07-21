@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:maiapps/core/route/arguments.dart';
 import 'package:maiapps/core/services/injection_container.dart';
 import 'package:maiapps/src/dashboard/presentation/view/dashboard.dart';
 import 'package:maiapps/src/food_detail/presentation/cubit/food_detail_cubit.dart';
@@ -20,11 +21,14 @@ Route<dynamic> generateRoute(RouteSettings settings) {
         settings: settings,
       );
     case FoodDetailScreen.routeName:
+      final args = settings.arguments as FoodDetailArguments;
       return _pageBuilder(
         (context) {
           return BlocProvider(
             create: (_) => sl<FoodDetailCubit>(),
-            child: const FoodDetailScreen(),
+            child: FoodDetailScreen(
+              entity: args.entity,
+            ),
           );
         },
         settings: settings,

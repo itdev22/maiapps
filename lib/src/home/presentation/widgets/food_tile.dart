@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:maiapps/core/route/arguments.dart';
+import 'package:maiapps/src/food_detail/presentation/views/food_detail_screen.dart';
 import 'package:maiapps/src/home/domain/entitys/food_data_entity.dart';
 
 class FoodTile extends StatelessWidget {
@@ -12,7 +14,13 @@ class FoodTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        Navigator.pushNamed(
+          context,
+          FoodDetailScreen.routeName,
+          arguments: FoodDetailArguments(entity),
+        );
+      },
       child: Card(
         elevation: 2,
         shape: RoundedRectangleBorder(

@@ -24,8 +24,7 @@ class FoodDetailRemoteDataSourceImpl extends FoodDetailRemoteDataSource {
       final httpClientConfig = HttpClientConfig();
 
       final response = await httpClientConfig.dio.get(
-        ConstantsServices.getItemList,
-        queryParameters: foodDetailBody.toQuery(),
+        ConstantsServices.getItemDetail + '${foodDetailBody.id}',
       );
 
       if (response.statusCode == 200) {
@@ -51,7 +50,7 @@ class FoodDetailRemoteDataSourceImpl extends FoodDetailRemoteDataSource {
         );
       }
     } catch (e) {
-      print(e.toString());
+      print('Error Nya apa : $e');
       throw ServerException(
         message: e.toString(),
         statusCode: '505',

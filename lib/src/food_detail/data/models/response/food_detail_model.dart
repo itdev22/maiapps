@@ -14,15 +14,14 @@ class FoodDetailModel extends FoodDetailEntity {
 
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
-      'foodDetailDataModel': foodDetailDataModel?.toMap(),
+      'data': foodDetailDataModel?.toMap(),
     };
   }
 
   factory FoodDetailModel.fromMap(Map<String, dynamic> map) {
     return FoodDetailModel(
-      foodDetailDataModel: map['foodDetailDataModel'] != null
-          ? FoodDetailDataModel.fromMap(
-              map['foodDetailDataModel'] as Map<String, dynamic>)
+      foodDetailDataModel: map['data'] != null
+          ? FoodDetailDataModel.fromMap(map['data'] as Map<String, dynamic>)
           : null,
     );
   }
