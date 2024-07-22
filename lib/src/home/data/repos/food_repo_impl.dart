@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:maiapps/core/errors/exceptions.dart';
-import 'package:maiapps/core/errors/failures.dart';
-import 'package:maiapps/core/utils/typedef.dart';
-import 'package:maiapps/src/home/data/datasources/food_remote_data_source.dart';
-import 'package:maiapps/src/home/data/models/response/food_model.dart';
-import 'package:maiapps/src/home/domain/repos/food_repo.dart';
+import 'package:gufytea/core/errors/exceptions.dart';
+import 'package:gufytea/core/errors/failures.dart';
+import 'package:gufytea/core/utils/typedef.dart';
+import 'package:gufytea/src/home/data/datasources/food_remote_data_source.dart';
+import 'package:gufytea/src/home/data/models/response/food_model.dart';
+import 'package:gufytea/src/home/domain/repos/food_repo.dart';
 
 class FoodRepoImpl extends FoodRepo {
   FoodRepoImpl(this._dataSource);

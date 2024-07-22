@@ -1,4 +1,4 @@
-import 'package:maiapps/src/basket/domain/entitys/basket_items_entity.dart';
+import 'package:gufytea/src/basket/domain/entitys/basket_items_entity.dart';
 
 class BasketItemsModel extends BasketItemsEntity {
   const BasketItemsModel({

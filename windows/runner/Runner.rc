@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "maiapps" "\0"
+            VALUE "FileDescription", "gufytea" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "maiapps" "\0"
+            VALUE "InternalName", "gufytea" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "maiapps.exe" "\0"
-            VALUE "ProductName", "maiapps" "\0"
+            VALUE "OriginalFilename", "gufytea.exe" "\0"
+            VALUE "ProductName", "gufytea" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

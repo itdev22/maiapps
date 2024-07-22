@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import 'package:maiapps/src/basket/data/models/response/basket_data_model.dart';
+import 'package:gufytea/src/basket/data/models/response/basket_data_model.dart';
 
 class BasketEntity extends Equatable {
   const BasketEntity({

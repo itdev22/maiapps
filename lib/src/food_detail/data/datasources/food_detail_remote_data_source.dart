@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:maiapps/core/env/http_client.dart';
-import 'package:maiapps/core/errors/exceptions.dart';
-import 'package:maiapps/core/utils/constants_services.dart';
-import 'package:maiapps/src/food_detail/data/models/body/food_detail_body.dart';
-import 'package:maiapps/src/food_detail/data/models/response/food_detail_model.dart';
+import 'package:gufytea/core/env/http_client.dart';
+import 'package:gufytea/core/errors/exceptions.dart';
+import 'package:gufytea/core/utils/constants_services.dart';
+import 'package:gufytea/src/food_detail/data/models/body/food_detail_body.dart';
+import 'package:gufytea/src/food_detail/data/models/response/food_detail_model.dart';
 
 abstract class FoodDetailRemoteDataSource {
   const FoodDetailRemoteDataSource();

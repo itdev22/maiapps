@@ -7,7 +7,7 @@ class HttpClientConfig {
 
   Dio _getDio() {
     final options = BaseOptions(
-      baseUrl: 'http://192.168.0.152:3000/',
+      baseUrl: 'https://7780-182-253-56-90.ngrok-free.app/',
       connectTimeout: const Duration(seconds: 30),
       receiveTimeout: const Duration(seconds: 30),
       receiveDataWhenStatusError: true,

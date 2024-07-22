@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
-import 'package:maiapps/src/dashboard/presentation/providers/dashboard_controller.dart';
+import 'package:gufytea/src/dashboard/presentation/providers/dashboard_controller.dart';
 import 'package:provider/provider.dart';
 
 class Dashboard extends StatefulWidget {

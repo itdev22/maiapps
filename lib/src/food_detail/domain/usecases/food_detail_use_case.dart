@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
-import 'package:maiapps/core/usecases/usecases.dart';
-import 'package:maiapps/core/utils/typedef.dart';
-import 'package:maiapps/src/food_detail/data/models/response/food_detail_model.dart';
-import 'package:maiapps/src/food_detail/domain/repos/food_detail_repo.dart';
+import 'package:gufytea/core/usecases/usecases.dart';
+import 'package:gufytea/core/utils/typedef.dart';
+import 'package:gufytea/src/food_detail/data/models/response/food_detail_model.dart';
+import 'package:gufytea/src/food_detail/domain/repos/food_detail_repo.dart';
 
 class FoodDetailUseCase extends UseCase<FoodDetailModel, FoodDetailParams> {
   FoodDetailUseCase(this._repo);

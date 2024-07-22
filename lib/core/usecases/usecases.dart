@@ -1,4 +1,4 @@
-import 'package:maiapps/core/utils/typedef.dart';
+import 'package:gufytea/core/utils/typedef.dart';
 
 abstract class UseCase<Type, Params> {
   ResultFuture<Type> call(Params params);

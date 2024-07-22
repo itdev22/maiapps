@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:maiapps/src/basket/domain/entitys/basket_data_entity.dart';
-import 'package:maiapps/src/basket/presentation/widgets/basket_item_tile.dart';
+import 'package:gufytea/src/basket/domain/entitys/basket_data_entity.dart';
+import 'package:gufytea/src/basket/presentation/widgets/basket_item_tile.dart';
 
 class BasketTile extends StatelessWidget {
   final BasketDataEntity entity;
@@ -27,7 +27,7 @@ class BasketTile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'Order Id',
+                'Detail Pemesanan',
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 18,

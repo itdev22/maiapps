@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:maiapps/src/home/domain/entitys/food_entity.dart';
-import 'package:maiapps/src/home/domain/usecases/food_use_case.dart';
+import 'package:gufytea/src/home/domain/entitys/food_entity.dart';
+import 'package:gufytea/src/home/domain/usecases/food_use_case.dart';
 
 part 'food_state.dart';
 

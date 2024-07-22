@@ -1,5 +1,5 @@
-import 'package:maiapps/src/home/data/models/response/food_data_model.dart';
-import 'package:maiapps/src/home/domain/entitys/food_entity.dart';
+import 'package:gufytea/src/home/data/models/response/food_data_model.dart';
+import 'package:gufytea/src/home/domain/entitys/food_entity.dart';
 
 class FoodModel extends FoodEntity {
   const FoodModel({super.foodDataModel});

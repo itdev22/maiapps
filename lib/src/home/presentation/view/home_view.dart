@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:maiapps/core/common/views/core_utils.dart';
-import 'package:maiapps/src/home/domain/entitys/food_data_entity.dart';
-import 'package:maiapps/src/home/presentation/cubit/food_cubit.dart';
-import 'package:maiapps/src/home/presentation/widgets/food_tile.dart';
+import 'package:gufytea/core/common/views/core_utils.dart';
+import 'package:gufytea/src/home/domain/entitys/food_data_entity.dart';
+import 'package:gufytea/src/home/presentation/cubit/food_cubit.dart';
+import 'package:gufytea/src/home/presentation/widgets/food_tile.dart';
 import 'package:shimmer/shimmer.dart';
 
 class HomeView extends StatefulWidget {
@@ -53,9 +53,8 @@ class _HomeViewState extends State<HomeView> {
                 const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Hello'),
                     Text(
-                      'Rama Mai',
+                      'Zahrotul Mufidah',
                       style: TextStyle(
                         fontSize: 18,
                       ),
@@ -125,8 +124,8 @@ class _HomeViewState extends State<HomeView> {
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 3 / 4,
+        crossAxisCount: 1,
+        childAspectRatio: 3 / 3,
         crossAxisSpacing: 16,
         mainAxisSpacing: 16,
       ),

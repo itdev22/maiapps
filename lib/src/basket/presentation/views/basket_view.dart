@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:maiapps/core/common/views/core_utils.dart';
-import 'package:maiapps/core/extensions/context_extension.dart';
-import 'package:maiapps/src/basket/domain/entitys/basket_data_entity.dart';
-import 'package:maiapps/src/basket/presentation/cubit/basket_cubit.dart';
-import 'package:maiapps/src/basket/presentation/widgets/basket_tile.dart';
+import 'package:gufytea/core/common/views/core_utils.dart';
+import 'package:gufytea/core/extensions/context_extension.dart';
+import 'package:gufytea/src/basket/domain/entitys/basket_data_entity.dart';
+import 'package:gufytea/src/basket/presentation/cubit/basket_cubit.dart';
+import 'package:gufytea/src/basket/presentation/widgets/basket_tile.dart';
 import 'package:shimmer/shimmer.dart';
 
 class BasketView extends StatefulWidget {
@@ -45,7 +45,7 @@ class _BasketViewState extends State<BasketView> {
           appBar: AppBar(
             surfaceTintColor: Colors.white,
             title: const Text(
-              'Order',
+              'Pemesanan',
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 20,

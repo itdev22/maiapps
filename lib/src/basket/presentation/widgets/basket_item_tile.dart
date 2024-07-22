@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maiapps/src/basket/domain/entitys/basket_cart_details_entity.dart';
+import 'package:gufytea/src/basket/domain/entitys/basket_cart_details_entity.dart';
 
 class BasketItemTile extends StatelessWidget {
   final BasketCartDetailsEntity entity;

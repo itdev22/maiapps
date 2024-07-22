@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:maiapps/core/common/app/providers/tab_navigator.dart';
-import 'package:maiapps/core/common/views/presistent_view.dart';
-import 'package:maiapps/core/services/injection_container.dart';
-import 'package:maiapps/src/basket/presentation/cubit/basket_cubit.dart';
-import 'package:maiapps/src/basket/presentation/views/basket_view.dart';
-import 'package:maiapps/src/home/presentation/cubit/food_cubit.dart';
-import 'package:maiapps/src/home/presentation/view/home_view.dart';
-import 'package:maiapps/src/profile/presentation/cubit/profile_cubit.dart';
-import 'package:maiapps/src/profile/presentation/views/profile_view.dart';
+import 'package:gufytea/core/common/app/providers/tab_navigator.dart';
+import 'package:gufytea/core/common/views/presistent_view.dart';
+import 'package:gufytea/core/services/injection_container.dart';
+import 'package:gufytea/src/basket/presentation/cubit/basket_cubit.dart';
+import 'package:gufytea/src/basket/presentation/views/basket_view.dart';
+import 'package:gufytea/src/home/presentation/cubit/food_cubit.dart';
+import 'package:gufytea/src/home/presentation/view/home_view.dart';
+import 'package:gufytea/src/profile/presentation/cubit/profile_cubit.dart';
+import 'package:gufytea/src/profile/presentation/views/profile_view.dart';
 import 'package:provider/provider.dart';
 
 class DashboardController extends ChangeNotifier {

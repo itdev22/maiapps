@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:maiapps/core/common/views/core_utils.dart';
-import 'package:maiapps/core/extensions/context_extension.dart';
-import 'package:maiapps/src/food_detail/presentation/cubit/food_detail_cubit.dart';
-import 'package:maiapps/src/food_detail/presentation/widgets/food_detail_app_bar.dart';
-import 'package:maiapps/src/home/domain/entitys/food_data_entity.dart';
+import 'package:gufytea/core/common/views/core_utils.dart';
+import 'package:gufytea/core/extensions/context_extension.dart';
+import 'package:gufytea/src/food_detail/presentation/cubit/food_detail_cubit.dart';
+import 'package:gufytea/src/food_detail/presentation/widgets/food_detail_app_bar.dart';
+import 'package:gufytea/src/home/domain/entitys/food_data_entity.dart';
 
 class FoodDetailScreen extends StatefulWidget {
   const FoodDetailScreen({

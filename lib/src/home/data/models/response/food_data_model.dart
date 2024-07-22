@@ -1,4 +1,4 @@
-import 'package:maiapps/src/home/domain/entitys/food_data_entity.dart';
+import 'package:gufytea/src/home/domain/entitys/food_data_entity.dart';
 
 class FoodDataModel extends FoodDataEntity {
   const FoodDataModel({

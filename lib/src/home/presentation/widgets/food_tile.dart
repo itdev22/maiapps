@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:maiapps/core/route/arguments.dart';
-import 'package:maiapps/src/food_detail/presentation/views/food_detail_screen.dart';
-import 'package:maiapps/src/home/domain/entitys/food_data_entity.dart';
+import 'package:gufytea/core/route/arguments.dart';
+import 'package:gufytea/src/food_detail/presentation/views/food_detail_screen.dart';
+import 'package:gufytea/src/home/domain/entitys/food_data_entity.dart';
 
 class FoodTile extends StatelessWidget {
   const FoodTile({
@@ -40,6 +40,7 @@ class FoodTile extends StatelessWidget {
               Image(
                 image: NetworkImage(entity.image ??
                     'https://static.vecteezy.com/system/resources/previews/016/765/986/original/steak-fast-food-cartoon-png.png'),
+                    height: 150,
               ),
               Text(
                 entity.title ?? '',

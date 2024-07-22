@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:maiapps/core/route/router.dart';
-import 'package:maiapps/core/services/injection_container.dart';
-import 'package:maiapps/src/dashboard/presentation/providers/dashboard_controller.dart';
+import 'package:gufytea/core/route/router.dart';
+import 'package:gufytea/core/services/injection_container.dart';
+import 'package:gufytea/src/dashboard/presentation/providers/dashboard_controller.dart';
 import 'package:provider/provider.dart';
 
 Future<void> main() async {

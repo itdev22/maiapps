@@ -1,5 +1,5 @@
-import 'package:maiapps/src/basket/data/models/response/basket_items_model.dart';
-import 'package:maiapps/src/basket/domain/entitys/basket_cart_details_entity.dart';
+import 'package:gufytea/src/basket/data/models/response/basket_items_model.dart';
+import 'package:gufytea/src/basket/domain/entitys/basket_cart_details_entity.dart';
 
 class BasketCartDetailsModel extends BasketCartDetailsEntity {
   const BasketCartDetailsModel({

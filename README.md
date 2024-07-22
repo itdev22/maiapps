@@ -1,4 +1,4 @@
-# maiapps
+# gufytea
 
 A new Flutter project.
 

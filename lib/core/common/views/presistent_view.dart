@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:maiapps/core/common/app/providers/tab_navigator.dart';
+import 'package:gufytea/core/common/app/providers/tab_navigator.dart';
 import 'package:provider/provider.dart';
 
 class PersistentView extends StatefulWidget {

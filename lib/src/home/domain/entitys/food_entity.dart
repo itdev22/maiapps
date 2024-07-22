@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import 'package:maiapps/src/home/data/models/response/food_data_model.dart';
+import 'package:gufytea/src/home/data/models/response/food_data_model.dart';
 
 class FoodEntity extends Equatable {
   const FoodEntity({

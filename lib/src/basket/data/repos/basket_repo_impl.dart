@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:maiapps/core/errors/exceptions.dart';
-import 'package:maiapps/core/errors/failures.dart';
-import 'package:maiapps/core/utils/typedef.dart';
-import 'package:maiapps/src/basket/data/datasources/basket_remote_data_sources.dart';
-import 'package:maiapps/src/basket/data/models/response/basket_model.dart';
-import 'package:maiapps/src/basket/domain/repos/basket_repo.dart';
+import 'package:gufytea/core/errors/exceptions.dart';
+import 'package:gufytea/core/errors/failures.dart';
+import 'package:gufytea/core/utils/typedef.dart';
+import 'package:gufytea/src/basket/data/datasources/basket_remote_data_sources.dart';
+import 'package:gufytea/src/basket/data/models/response/basket_model.dart';
+import 'package:gufytea/src/basket/domain/repos/basket_repo.dart';
 
 class BasketRepoImpl extends BasketRepo {
   BasketRepoImpl(this._dataSource);
